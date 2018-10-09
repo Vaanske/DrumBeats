@@ -1,0 +1,44 @@
+body {
+      background-color:lighten(gray,30%);
+      position: relative;
+      
+}
+.container-fluid{
+    background-color: gray;
+    position: absolute;
+    border: 5px solid red;
+    bottom: auto;
+    top: 200px;
+  
+}
+
+.row {
+    position:relative;
+    height: 100%;
+    object-align: center;
+}
+.col-sm-4 {
+   position: relative;
+   background-color: lighten(gray,20%);
+}
+.drum-pad {
+   font-family: 'Oswald', serif;
+   margin: 5px;
+   width: 27%;
+   display: inline-block;
+   position: absolute center; 
+}
+.col-sm-6{
+     position: relative;
+     display: block;
+     background-color: orange;
+}
+p {
+    text-align: center;
+    background-color: lighten(gray,15%);
+    border: 2px solid blue;
+    position: absolute center;
+    margin-top:30px;
+    
+
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="main.js"> </script>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Oswald">
+
+
+  <div class="container-fluid">
+  <div class="row" id="drum-machine">
+    <div class="col-sm-4">
+      <button class="drum-pad" id="Qsound" value="Q" onclick="clickMe(this.value)"> Q  <audio id="Q" src="http://www.synthmania.com/Boss%20DR-220A/Audio/Boss%20DR-220A%20Preset%20Patterns/Shuffle%20(2).mp3"></audio> </button> 
+      <button onclick="clickMe(this.value)" value="W" id="Wsound" class="drum-pad"> W <audio id="W" src="http://www.synthmania.com/Boss%20DR-220A/Audio/Boss%20DR-220A%20Preset%20Patterns/Shuffle%20(2).mp3"></audio></button>
+      <button onclick="clickMe(this.value)" class="drum-pad" id="Esound" value="E"> E<audio id="E" src="http://www.synthmania.com/Boss%20DR-220A/Audio/Boss%20DR-220A%20Preset%20Patterns/Shuffle%20(2).mp3"></audio></button> <br>
+      <button onclick="clickMe(this.value)" class="drum-pad" id="Asound" value="A"> A <audio id="A" src="http://www.synthmania.com/Boss%20DR-220A/Audio/Boss%20DR-220A%20Preset%20Patterns/Shuffle%20(2).mp3"></audio></button>
+      <button onclick="clickMe(this.value)" class="drum-pad" id="Ssound" value="S" > S <audio id="S" src="http://www.synthmania.com/Boss%20DR-220A/Audio/Boss%20DR-220A%20Preset%20Patterns/Shuffle%20(2).mp3"></audio></button>
+      <button onclick="clickMe(this.value)" class="drum-pad" id="Dsound" value="D"> D <audio id="D" src="http://www.synthmania.com/Boss%20DR-220A/Audio/Boss%20DR-220A%20Preset%20Patterns/Shuffle%20(2).mp3"></audio></button> <br>
+      <button onclick="clickMe(this.value)" class="drum-pad" id="Zsound" value="Z" > Z <audio id="Z" src="http://www.synthmania.com/Boss%20DR-220A/Audio/Boss%20DR-220A%20Preset%20Patterns/Shuffle%20(2).mp3"></audio></button>
+      <button onclick="clickMe(this.value)" id="Xsound" value="X" class="drum-pad"> X <audio id="X" src="http://www.synthmania.com/Boss%20DR-220A/Audio/Boss%20DR-220A%20Preset%20Patterns/Shuffle%20(2).mp3"></audio> </button>
+      <button onclick="clickMe(this.value)" id="Csound" value="C" class="drum-pad"> C<audio id="C" src="http://www.synthmania.com/Boss%20DR-220A/Audio/Boss%20DR-220A%20Preset%20Patterns/Shuffle%20(2).mp3"></audio></button>
+    </div>
+    <div class="col-sm-6">
+      <p id="display">  Some text to be changed </p>
+    </div>
+  </div>
+</div>
